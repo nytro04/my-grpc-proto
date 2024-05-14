@@ -11,7 +11,7 @@ message CartItem {
   bool taxable = 4;
 }
 
-message CartResponse {
+message Cart {
   string cart_uuid = 1 [json_name = "cart_uuid"];
   repeated CartItem items = 2;
 }
